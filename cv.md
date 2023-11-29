@@ -54,3 +54,14 @@ function lovefunc(flower1, flower2){
 }
 ```
 
+## Educations
+
+- Ural State Mining University
+    - Ecologist
+- [RsSchool Stage0](https://rs.school/js-stage0/)
+- Udemy:
+    - Bogdan Stashchuk: JavaScript - Full course about JavaScript (finished)
+- SkillBox: Front-end Developer PRO (currently learning)
+- HTML academy: Basic course in HTML/CSS/JS
+
+
