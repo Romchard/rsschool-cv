@@ -22,3 +22,21 @@ I try to stick to this quote:
 
 > The one who does nothing is not mistaken. Don't be afraid to make mistakes — be afraid to repeat mistakes.
 
+## Skills
+
+1. HTML
+2. CSS
+3. JS 
+4. Preprocessor: SCSS/LESS
+5. Git
+6. Gulp
+7. Frameworks: Tailwind, Bootstrap
+8. Figma, Photoshop 
+9. VS Code / Webstorm 
+
+### I want to learn
+
+1. Advanced JavaScript level 
+2. TypeScript
+3. React
+4. React Native
