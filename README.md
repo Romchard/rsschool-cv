@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://romchard.github.io/rsschool-cv/cv
