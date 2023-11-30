@@ -25,6 +25,11 @@ img {
 a {
     text-decoration: none;
     color: var(--primary-light-brown);
+    transition: all .3s linear;
+}
+
+a:hover {
+    color: var(--primary-dark-blue);
 }
 
 li::marker {
@@ -43,6 +48,10 @@ body {
     max-width: 1440px;
     padding: 0 40px;
     margin: 0 auto;
+}
+
+.heading {
+    margin-bottom: 20px;
 }
 
 .header {
@@ -89,20 +98,84 @@ body {
     margin-bottom: 100px;
 }
 
-.footer{
-    padding: 20px 0;
-    background-color: var(--primary-dark);
+#about blockquote {
+    margin: 10px 0 0;
 }
 
-.footer img{
+blockquote {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: var(--primary-dark);
+    background-color: var(--primary-light-blue);
+    border-radius: 25px;
+}
+
+pre{
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: var(--primary-dark);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.footer img {
     width: 50px;
 }
 
-.footer .container{
+.footer .container {
     display: flex;
     justify-content: space-between;
 }
 
-.footer span{
+.footer span {
     color: var(--primary-light);
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .wrapper {
+        gap: 50px;
+    }
+
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .nav-list {
+        padding: 0;
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .hero-wrapper {
+        text-align: center;
+    }
+
+    .avatar {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .nav-list {
+        flex-direction: column;
+    }
 }
