@@ -75,10 +75,34 @@ body {
     border-radius: 50px;
 }
 
-.hero-wrapper{
+.hero-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.footer{
+    padding: 20px 0;
+    background-color: var(--primary-dark);
+}
+
+.footer img{
+    width: 50px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer span{
+    color: var(--primary-light);
+}
